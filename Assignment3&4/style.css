@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.converter-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.conversion-input {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.result {
+    font-weight: bold;
+    color: #2ecc71;
+}
